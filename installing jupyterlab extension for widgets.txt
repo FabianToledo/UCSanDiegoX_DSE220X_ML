@@ -1,0 +1,7 @@
+
+nodeenv -p
+
+//For jupyter notebook
+jupyter nbextension enable --py --sys-prefix widgetsnbextension
+// for jupyter lab
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
